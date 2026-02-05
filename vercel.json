@@ -1,14 +1,9 @@
 {
   "version": 2,
-  "functions": {
-    "src/main.ts": {
-      "maxDuration": 10
-    }
-  },
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "src/main.ts"
+      "destination": "api/main.ts"
     }
   ]
 }
