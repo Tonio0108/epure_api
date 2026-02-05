@@ -26,7 +26,6 @@
     "@nestjs/platform-express": "^11.0.1",
     "@prisma/adapter-d1": "^7.3.0",
     "@prisma/client": "5.15.0",
-    "better-sqlite3": "^12.6.2",
     "pdf-parse": "^2.4.5",
     "pdf2json": "^4.0.2",
     "reflect-metadata": "^0.2.2",

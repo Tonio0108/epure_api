@@ -1,9 +1,2 @@
-ignoredBuiltDependencies:
-  - better-sqlite3
-
-onlyBuiltDependencies:
-  - '@nestjs/core'
-  - '@prisma/client'
-  - '@prisma/engines'
-  - prisma
-  - unrs-resolver
+packages:
+  - '.'
