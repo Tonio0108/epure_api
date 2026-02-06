@@ -102,6 +102,8 @@ export class AnalysisService {
                 "missingSkills": ["compétence1", "compétence2"],
                 "suggestions": [{"original": "texte_original", "suggestion": "texte_suggestionné", "reason": "raison"}]
             }
+            
+            Si le CV est en Fr tu reponds en Fr, si c'est en Anglais reponds en Anglais. Et si c'est en autre langue reponds dans la langue du CV.
         `;
         try {
             const result = await model.generateContent(prompt);
